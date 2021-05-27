@@ -1,0 +1,12 @@
+digraph {
+	q0 [label=q0 color=red]
+	q1
+	q2
+	q3 [label=q3 shape=doublecircle]
+	q0 -> q1 [label=b]
+	q0 -> q2 [label="$"]
+	q2 -> q1 [label=b]
+	q2 -> q3 [label=b]
+	q1 -> q3 [label="$"]
+	q3 -> q3 [label=a]
+}
